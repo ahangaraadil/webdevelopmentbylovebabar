@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table - Col Span & Row Span</title>
+    <link rel="stylesheet" href="table3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h3 class="myheading">
+        Table - Row Span
+    </h3>
+    <table class="mytable">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>COMPANY</th>
+                <th colspan="2">FOUNDERS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- I have added icon -->
+            <tr>
+                <td>01</td>
+                <td>Apple</td>
+                <td>Steve Jobs</td>
+                <td rowspan="3">
+                    <i class="fa fa-apple" style="font-size:50px; text-align: center; width: 100%;"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Microosft</td>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>The Boring Company</td>
+                <td>Elon Musk</td>
+            </tr>
+        </tbody>
+</body>
+</html>
